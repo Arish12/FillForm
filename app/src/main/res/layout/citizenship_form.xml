@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_citizenship_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f99008"
+        android:padding="10dp"
+        android:text="@string/citizenship_information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_citizenship_number"
+        android:text="@string/citizenship_number"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/citizenship_number"
+        android:inputType="number"
+        android:id="@+id/et_citizenship_number"
+        android:textColorHint="@string/citizenship_number"
+        android:layout_below="@+id/txt_citizenship_number"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_place_of_issue"
+        android:text="@string/place_of_issue"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <Spinner
+        android:id="@+id/sp_district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_date_of_issue"
+        android:text="@string/date_of_issue"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+
+</LinearLayout>

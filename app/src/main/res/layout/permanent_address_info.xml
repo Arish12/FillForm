@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_permanent_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f99008"
+        android:padding="10dp"
+        android:text="@string/permanent_address_information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_permanent_district"
+        android:text="@string/district"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <Spinner
+        android:id="@+id/sp_permanent_district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_permanent_vdc_municipality"
+        android:text="@string/permanent_vdc_municipality"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <Spinner
+        android:id="@+id/sp_permanent_vdc_municipality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_permanent_ward_no"
+        android:text="@string/permanent_ward_no"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <Spinner
+        android:id="@+id/sp_permanent_ward_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:id="@+id/txt_permanent_tole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/tole"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/sp_permanent_tole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tole"
+        android:inputType="number" />
+
+</LinearLayout>

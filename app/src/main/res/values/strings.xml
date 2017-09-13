@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">EKYC</string>
+    <string name="general_information">General Information</string>
+    <string name="applicant">Applicant</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="father">Father</string>
+    <string name="grand_father">Grand Father</string>
+    <string name="spouse">Spouse</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="education_level">Education Level</string>
+    <string name="occupation">Occupation</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="citizenship_information">Citizenship Information</string>
+    <string name="citizenship_number">Citizenship Number</string>
+    <string name="place_of_issue">Place of Issue</string>
+    <string name="date_of_issue">Date of Issue</string>
+    <string name="district">District</string>
+    <string name="permanent_vdc_municipality">VDC / Municipality</string>
+    <string name="permanent_ward_no">Ward No</string>
+    <string name="tole">Tole</string>
+    <string name="pa_number">PA Number</string>
+    <string name="pa_image">PA Image</string>
+    <string name="left_thumb">Left Thumb</string>
+    <string name="right_thumb">Right Thumb</string>
+    <string name="biometric_information">Bio Metric</string>
+    <string name="permanent_address_information">Permanent Address</string>
+    <string name="photograph">Photograph</string>
+    <string name="citizenship">Citizenship</string>
+    <string name="save">Save</string>
+    <string name="personal_agreement">Personal Agreement</string>
+    <string name="additional_information">Additional Information</string>
+
+
+    <string name="config">Config</string>
+    <string name="bluetooth_config">Configure Bluetooth</string>
+    <string name="scan_bluetooth">Scan BT Devices</string>
+    <string name="selected_device">Selected Device</string>
+    <string name="pair">Pair</string>
+    <string name="connect">Connect</string>
+    <string name="exit">Exit</string>
+    <string name="device_info">%1$s</string>
+
+
+    <string name="actDiscovery_bond_bonded">Bonded</string>
+    <string name="actDiscovery_bond_nothing">Nothing</string>
+    <string name="actDiscovery_msg_select_device">Select the device you need to connect</string>
+    <string name="actDiscovery_msg_not_find_device">Devices not found</string>
+    <string name="actDiscovery_msg_bluetooth_not_start">Bluetooth is not enabled</string>
+    <string name="actDiscovery_msg_scaning_device">Scanning for Bluetooth Devices, Please wait&#8230;</string>
+    <string name="device_type_bredr">BR/EDR Bluetooth</string>
+    <string name="device_type_ble">Low Energy Bluetooth</string>
+    <string name="device_type_dumo">Duplex mode Bluetooth</string>
+    <string name="actMain_device_info">%1$s</string>
+    <string name="actMain_msg_does_not_support_uuid_service">Android version does not support this.</string>
+    <string name="actDiscovery_msg_starting_device">Starting Bluetooth &#8230;</string>
+    <string name="radio_9600">9600</string>
+    <string name="radio_11520">115200</string>
+    <string name="ibc">IBC</string>
+    <string name="actMain_msg_device_connect_succes">Successful connection</string>
+    <string name="actMain_msg_bluetooth_Bond_Success">Pairing successful</string>
+    <string name="actMain_msg_device_connect_fail">Communication failure</string>
+    <string name="actMain_msg_device_connecting">Connecting device&#8230;</string>
+    <string name="actMain_msg_bluetooth_Bond_fail">Pairing failed</string>
+    <string name="actMain_msg_bluetooth_Bonding">pairing&#8230;</string>
+    <string name="dialog_title_sys_err">System Error</string>
+    <string name="actDiscovery_msg_start_bluetooth_fail">Bluetooth device start fail</string>
+    <string name="btn_ok">OK</string>
+</resources>
